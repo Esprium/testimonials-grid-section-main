@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>MY GRID</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color:hsl(253, 47%, 96%);
+    }
+    .gridcontainer{
+      
+      background-color: brown;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(4,1fr);
+      gap: 10px;
+      width: 70%;
+      height: 575px;
+      margin: 20px auto;
+    }
+    .griditem1{
+      background-color: hsl(31, 66%, 93%);
+    }
+    .griditem2{
+      background-color: hsl(256, 67%, 59%);
+      grid-column: 2/3;
+    }
+    .griditem3{
+      background-color: hsl(254, 88%, 90%);
+      grid-column: 3/4;
+      grid-row: 1/4;
+    }
+    .griditem4{
+        background-color: blue;
+        /* grid-row: 3/4; */
+    }
+
+  </style>
+</head>
+<body>
+  <div class="gridcontainer">
+    <div class="griditem1">01</div>
+    <div class="griditem2">02</div>
+    <div class="griditem3">03</div>
+  </div>
+
+  <!-- Social Media 10x Faster with AI
+  Over 4,000 5-star reviews
+
+  Manage multiple accounts and platforms.
+
+  Maintain a consistent posting schedule.
+
+  Schedule to social media.
+  Optimize post timings to publish content at the perfect time for your audience.
+  
+  Grow followers with non-stop content.
+
+  >56% faster audience growth
+  
+  Create and schedule content quicker.
+
+  Write your content using AI.
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
